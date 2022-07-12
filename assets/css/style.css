@@ -14,7 +14,15 @@
 /*Global Style End*/
 
 /*Body Style Start*/
-
+    /*define header styles here*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+    h1 {
+        flex: 0 0 0
+    }
 /*Body Style End*/
 
 /*Header Style Start*/
