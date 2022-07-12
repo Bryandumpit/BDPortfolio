@@ -1,0 +1,34 @@
+/*Global Style Start*/
+:root{
+    /*define variables here*/
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2
+}
+*{
+    /*define global styles here*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Global Style End*/
+
+/*Body Style Start*/
+
+/*Body Style End*/
+
+/*Header Style Start*/
+
+/*Header Style End*/
+
+/*Figure Style Start*/
+
+/*Figure Style End*/
+
+/*Main Style Start*/
+
+/*Main Style End*/
+
+/*Footer Style Start*/
+
+/*Footer Style End*/
