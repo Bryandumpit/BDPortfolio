@@ -12,32 +12,30 @@
             <div class="bryan-card">
                 <img class="bryan-avatar" src="./assets/images/bryan-avatar.jpg" alt="bryan-dumpit"/>
                 <h1>
-                     Bryan Dumpit <br>
-                     Web Developer
+                     Bryan Dumpit: <br>
+                     <span>Web Developer</span>
                 </h1>                
             </div>
             
             <!--Links to the corresponding sections in body. Link to the actual section not the side card-->    
             <nav>
                 <ul>
-                    
                     <li>
                         <a href="#about-me"> About me</a> 
                     </li>
                     
                     <li>
-                        <a href="#work">Work</a>
+                        <a href="#works">Works</a>
                     </li>
                     
                     <li>
                         <a href="#contact-me">Contact me</a>
-                        </a>
+                        
                     </li>
                     
                     <li>
                         <a href="">Resume</a>
                     </li>
-                
                 </ul>
             </nav> 
         </header>
@@ -52,14 +50,14 @@
         
         <main>
             <!--about me parent section-->
-            <section>
+            <section class="about-me-section">
                 <div class="side-card" id="about-me">
                     <h2>
                         About Me
                     </h2>
                 </div>
 
-                <article>
+                <article class="about-me-text">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
@@ -71,64 +69,69 @@
             </section>
             
             <!--work parent section-->
-            <section>
-                <div class="side-card" id="work">
+            <section class="works-section">
+                <div class="side-card" id="works">
                     <h2>
-                        Work
+                        Works
                     </h2>
                 </div>
                 <!--this div is the parent for all the work-cards e.g. surf report, LED wall etc.-->
-                <div>
+                <div class="works-card-parent">
 
                     <figure class="work-card" id="surf-report">
                         <img src="https://dummyimage.com/700x500/000/fff" alt="surf-report" />
                         <div>
                             <h3>
-                                Surf Report
-                            </h3>
-                            <p>MERN Stack</p>
+                                Surf Report<br>
+                                <span>MERN Stack</span>
+                            </h3>                            
                         </div>
                     </figure>
+                    
 
                     <figure class="work-card" id="led-wall">
                         <img src="https://dummyimage.com/700x500/000/fff" alt="led-wall" />
                         <div>
                             <h3>
-                                LED Wall
-                            </h3>
-                            <p>Node/IoT</p>
+                                LED Wall<br>
+                                <span>Node/IoT</span>
+                            </h3>                            
                         </div>
                     </figure>
+                    
 
                     <figure class="work-card" id="calculator">
                         <img src="https://dummyimage.com/700x500/000/fff" alt="calculator" />
                         <div>
                             <h3>
-                                Calculator
-                            </h3>
-                            <p>React/Javascript/CSS</p>
+                                Calculator<br>
+                                <span>React/Javascript/CSS</span>
+                            </h3>                            
                         </div>
                     </figure>
+                   
                     
                     <figure class="work-card" id="pastel-puzzle">
                         <img src="https://dummyimage.com/700x500/000/fff" alt="pastel-puzzle" />
                         <div>
                             <h3>
-                                Pastel Puzzle
-                            </h3>
-                            <p>MERN Stack</p>
+                                Pastel Puzzle<br>
+                                <span>MERN Stack</span>
+                            </h3>                            
                         </div>
                     </figure>
+                    
                     
                     <figure class="work-card" id="run-buddy">
                         <img src="https://dummyimage.com/700x500/000/fff" alt="run-buddy" />
                         <div>
                             <h3>
-                                Run Buddy
-                            </h3>
-                            <p>HTML/CSS</p>
+                                Run Buddy<br>
+                                <span>HTML/CSS</span>
+                            </h3>                            
                         </div>
                     </figure>
+                    
                 
                 </div>
 
@@ -136,18 +139,20 @@
 
             <!--contact me parent section-->
 
-            <section>
+            <section class="contact-me-section">
                 <div class="side-card" id="contact-me">
                     <h2>
                         Contact Me
                     </h2>
                 </div>
 
-                <div>
-                    <ul>
-                        <li>Phone: 416-316-1022</li>
-                        <li>Email me at dumpitbr@gmail.com</li>
-                        <li>GitHub: https://github.com/Bryandumpit </li>
+                <div class="contact-links">
+                    <ul class="contact-list">
+                        <li>Phone: <br> <span>416-WEB-DEVX</span></li>
+
+                        <li>Email me at: <br> <a href="mailto:dumpitbr@gmail.com">dumpitbr@gmail.com</a><li>
+                        
+                        <li>GitHub: <br><a href="https://github.com/Bryandumpit">https://github.com/Bryandumpit</a> </li>
                     </ul>
                 </div>
 
@@ -157,8 +162,12 @@
         
         <footer>
             <h2>❤️ Made with love by Bryan Dumpit</h2>
+            <h3>
+                Checkout my <a href="">Resume</a>
+            </h3>
         </footer>
 
     </body>
 
 </html>
+
