@@ -284,3 +284,16 @@ footer h3 a {
     color:#69cfd3;
 }
 /*Footer Style End*/
+
+/*This CSS rule is for placeholder pages*/
+
+.placeholder-div{
+    height:1000px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .placeholder-div p{
+        font-size: 2.5vw;
+    }
