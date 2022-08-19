@@ -179,8 +179,9 @@ main {
                     color: var(--primary-color);
                     background-color: var(--secondary-color);
                 }
-                    .work-card:nth-child(1) div h3 span{
+                    .work-card:nth-child(1) div h3 ul{
                         font-weight: lighter;
+                        list-style: none;
                     }
                 
             .work-card:not(:first-child){
